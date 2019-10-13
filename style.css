@@ -1,0 +1,80 @@
+*{
+  margin:0px;
+  padding: 0px;
+  color:#9e0b0f;
+}
+html,body{
+  height: 100%;
+}
+a.action,button.action,input.search{
+  color:#9e0b0f;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border:1px solid #9e0b0f;
+  background-color: white;
+  transition: 0.3s;
+}
+a.action:hover,button.action:hover{
+  color: #eee;
+  background-color: #9e0b0f;
+  transition: 0.3s;
+}
+.login{
+  align-items: center;
+  margin-top: 6em;
+  padding-top: 50px;
+}
+.login-form{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.login-form input[type=text],.login-form input[type=password]{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  border-collapse: collapse;
+  padding: 6px 12px;
+}
+.login-form button{
+  width: 100%;
+  padding: 6px 12px;
+  background-color: transparent;
+}
+.border-maroon{
+  border:3px solid #9e0b0f;
+  border-radius: 5px;
+}
+.bdm-bg{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('res/bdm-bg.png');
+  background-repeat: no-repeat;
+}
+.menu{
+  background-color: #9e0b0f;
+  height: 100%;
+  margin-left: -50px;
+  padding: 15px;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu a li{
+  color:#eee;
+  text-align: center;
+  padding: 6px 12px;
+}
+.menu a li:hover,.menu a li.current{
+  background-color: #bf2d2f;
+}
+.content{
+  padding-top: 50px;
+}
+table{
+  margin-top: 20px;
+}
+th,td{
+  text-align: center;
+  padding:6px 12px;
+  background-color: white;
+}
